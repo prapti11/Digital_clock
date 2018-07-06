@@ -1,0 +1,40 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.background{
+	background-image: url(../images/clock-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+}
+.overlay{
+    background-color: rgba(202, 211, 200,0.65);
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+.clock{
+	margin: 0 auto;
+	margin-top: 200px;
+	border:10px solid black;
+    border-radius: 5px;
+	width: 200px;
+	height: 120px;
+	font-size: 40px;
+	text-align: center;
+	padding: 20px;
+	font-weight: bold;
+	position: relative;
+}
+.badge{
+	background-color: rgba(249, 127, 81,1.0);
+	top: -15px;
+	margin-left: 45px;
+	position: absolute;
+	font-size: 18px;
+	padding: 5px;
+}
